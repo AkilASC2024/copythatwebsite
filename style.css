@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+div {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    background-color: white;
+    align-content: center;
+}
+
+nav {
+    background-color: white;
+    border: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: auto;
+    height: 40px;
+}
+
+.content {
+    flex-direction: column;
+}
+
+#newseason {
+    background-color: gold;
+    font-weight: bold;
+    text-align: center;
+    width: 350px;
+}
+
+#title {
+    color: white;
+    font-size: 300%;
+    font-weight: bolder;
+    width: 400px;
+}
+
+.buttons #getbutton {
+    background-color: limegreen;
+    color: darkgreen;
+    font-size: 150%;
+    font-weight: bolder;
+    width: 175px;
+}
+
+.buttons #joinbutton {
+    background-color: black;
+    color: limegreen;
+    font-size: 150%;
+    font-weight: bolder;
+    width: 150px;
+}
+
+.content {
+    background-color: black;
+}
